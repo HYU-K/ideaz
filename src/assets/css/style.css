@@ -1,0 +1,27 @@
+/*!
+Theme Name: vnh_title
+Author: vnh_author
+Author URI: vnh_author_uri
+Theme URI: vnh_uri
+GitHub Theme URI: nanowebz/skyworth
+GitHub Theme URI: https://github.com/nanowebz/skyworth
+Description: vnh_description
+Version: 1.3.0
+License: vnh_license
+License URI: vnh_license_uri
+Text Domain: vnh_textdomain
+Tags: vnh_tags
+Document URI: vnh_document_uri
+Tested up to: vnh_tested_up_to
+Requires PHP: vnh_php_requires
+*/
+@import 'tailwindcss/base';
+@import 'wp.css';
+@import-glob 'elements/*.css';
+@import-glob 'components/*.css';
+@import-glob 'objects/*.css';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import-glob 'site/*.css';
+@import-glob 'site/gen/*.css';
+

@@ -1,0 +1,690 @@
+# Copyright (C) 2022 unnamed project
+# This file is distributed under the same license as the unnamed project package.
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Nanoweb <nanoweb.vn@gmail.com>\n"
+"Last-Translator: Nanoweb <vunamhung@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://nanoweb.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/404.php:17, src/themes/src/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: src/404.php:21, src/themes/src/404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: src/404.php:30, src/themes/src/404.php:30
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#. translators: %1$s: smiley
+#: src/404.php:48, src/themes/src/404.php:48
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: src/header.php:23, src/themes/src/header.php:23
+msgid "Skip to content"
+msgstr ""
+
+#: src/inc/Comments.php:23
+msgid "Comment"
+msgstr ""
+
+#: src/inc/Comments.php:37
+msgid "Name"
+msgstr ""
+
+#: src/inc/Comments.php:43
+msgid "Email"
+msgstr ""
+
+#: src/inc/Comments.php:49
+msgid "Website"
+msgstr ""
+
+#: src/inc/Comments.php:59
+msgid "Older comments"
+msgstr ""
+
+#: src/inc/Comments.php:60
+msgid "Newer comments"
+msgstr ""
+
+#: src/inc/Comments.php:68
+msgctxt "comments title"
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/inc/Comments.php:77, src/themes/twentytwenty/comments.php:127
+msgid "Comments are closed."
+msgstr ""
+
+#: src/inc/Social_Menu.php:52
+msgid "Social"
+msgstr ""
+
+#: src/inc/Social_Menu.php:112
+msgid "No social menu have been created yet."
+msgstr ""
+
+#: src/inc/Social_Menu.php:114
+msgid " Create one"
+msgstr ""
+
+#. translators: %s: post author.
+#: src/inc/template-tags.php:34
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: src/inc/template-tags.php:49
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: src/inc/template-tags.php:52
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: src/inc/template-tags.php:57
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: src/inc/template-tags.php:60
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: src/inc/template-tags.php:71
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#. translators: %s: Name of current post. Only visible to screen readers
+#. translators: %s: Name of current post. Only visible to screen readers
+#: src/inc/template-tags.php:88, src/template-parts/content-page.php:39, src/template-parts/content-template1.php:37
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: src/inc/Theme.php:55
+msgid "Primary"
+msgstr ""
+
+#: src/inc/Theme_Supports.php:15
+msgid "Sidebar"
+msgstr ""
+
+#: src/inc/Theme_Supports.php:16, src/inc/Theme_Supports.php:22, src/inc/Theme_Supports.php:26, src/inc/Theme_Supports.php:30
+msgid "Add widgets here."
+msgstr ""
+
+#: src/inc/Theme_Supports.php:21
+msgid "Footer 1"
+msgstr ""
+
+#: src/inc/Theme_Supports.php:25
+msgid "Footer 2"
+msgstr ""
+
+#: src/inc/Theme_Supports.php:29
+msgid "Footer 3"
+msgstr ""
+
+#: src/inc/widgets/Info.php:12, src/inc/widgets/Info.php:18
+msgid "Info"
+msgstr ""
+
+#: src/inc/widgets/Info.php:13
+msgid "SkyWorth Info"
+msgstr ""
+
+#: src/inc/widgets/Info.php:16, src/inc/widgets/Recent_Posts.php:16
+msgid "Title:"
+msgstr ""
+
+#: src/inc/widgets/Recent_Posts.php:12, src/inc/widgets/Recent_Posts.php:18
+msgid "Recent Posts"
+msgstr ""
+
+#: src/inc/widgets/Recent_Posts.php:13
+msgid "Display recent post based on number of comments or number of like."
+msgstr ""
+
+#: src/inc/widgets/Recent_Posts.php:21
+msgid "Number of posts:"
+msgstr ""
+
+#: src/page-templates/about.php:3
+msgid "About Us"
+msgstr ""
+
+#: src/page-templates/contact.php:3
+msgid "Contact Us"
+msgstr ""
+
+#: src/page-templates/guarantee.php:3
+msgid "Guarantee"
+msgstr ""
+
+#: src/page-templates/news.php:3
+msgid "News"
+msgstr ""
+
+#: src/page-templates/support.php:3
+msgid "Support"
+msgstr ""
+
+#: src/page-templates/template1.php:3
+msgid "Template 1"
+msgstr ""
+
+#. translators: %s: search query.
+#. translators: %s: search query.
+#: src/search.php:20, src/themes/src/search.php:20
+msgid "Kết quả tìm kiếm: %s"
+msgstr ""
+
+#: src/searchform.php:2, src/themes/src/searchform.php:2
+msgid "Tìm kiếm"
+msgstr ""
+
+#: src/searchform.php:4, src/themes/src/searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: src/template-parts/content-none.php:14, src/themes/twentytwenty/index.php:51
+msgid "Nothing Found"
+msgstr ""
+
+#: src/template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: src/template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: src/template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: src/template-parts/content-page.php:25, src/template-parts/content-template1.php:23, src/template-parts/content.php:37
+msgid "Pages:"
+msgstr ""
+
+#: src/themes/twentytwenty/404.php:17
+msgid "Page Not Found"
+msgstr ""
+
+#: src/themes/twentytwenty/404.php:19
+msgid "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
+msgstr ""
+
+#: src/themes/twentytwenty/404.php:24
+msgid "404 not found"
+msgstr ""
+
+#. translators: 1: Number of comments, 2: Post title.
+#: src/themes/twentytwenty/comments.php:41
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/themes/twentytwenty/comments.php:37
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: src/themes/twentytwenty/comments.php:34
+msgid "Leave a comment"
+msgstr ""
+
+#: src/themes/twentytwenty/comments.php:74
+msgid "Newer Comments"
+msgstr ""
+
+#: src/themes/twentytwenty/comments.php:75
+msgid "Older Comments"
+msgstr ""
+
+#: src/themes/twentytwenty/comments.php:88
+msgid "Comments"
+msgstr ""
+
+#. translators: Copyright date format, see https://www.php.net/manual/datetime.format.php
+#: src/themes/twentytwenty/footer.php:25
+msgctxt "copyright date format"
+msgid "Y"
+msgstr ""
+
+#: src/themes/twentytwenty/footer.php:38
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: src/themes/twentytwenty/footer.php:39
+msgid "Powered by WordPress"
+msgstr ""
+
+#. translators: %s: HTML character for up arrow.
+#: src/themes/twentytwenty/footer.php:49
+msgid "To the top %s"
+msgstr ""
+
+#. translators: %s: HTML character for up arrow.
+#: src/themes/twentytwenty/footer.php:55
+msgid "Up %s"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:273
+msgid "Desktop Horizontal Menu"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:274
+msgid "Desktop Expanded Menu"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:275
+msgid "Mobile Menu"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:276
+msgid "Footer Menu"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:277
+msgid "Social Menu"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:362
+msgid "Skip to the content"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:389
+msgid "Footer #1"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:391
+msgid "Widgets in this area will be displayed in the first column in the footer."
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:401
+msgid "Footer #2"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:403
+msgid "Widgets in this area will be displayed in the second column in the footer."
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:516
+msgid "Accent Color"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:521
+msgctxt "color"
+msgid "Primary"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:526
+msgctxt "color"
+msgid "Secondary"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:531
+msgid "Subtle Background"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:544
+msgid "Background Color"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:559
+msgctxt "Name of the small font size in the block editor"
+msgid "Small"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:560
+msgctxt "Short name of the small font size in the block editor."
+msgid "S"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:565
+msgctxt "Name of the regular font size in the block editor"
+msgid "Regular"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:566
+msgctxt "Short name of the regular font size in the block editor."
+msgid "M"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:571
+msgctxt "Name of the large font size in the block editor"
+msgid "Large"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:572
+msgctxt "Short name of the large font size in the block editor."
+msgid "L"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:577
+msgctxt "Name of the larger font size in the block editor"
+msgid "Larger"
+msgstr ""
+
+#: src/themes/twentytwenty/functions.php:578
+msgctxt "Short name of the larger font size in the block editor."
+msgid "XL"
+msgstr ""
+
+#: src/themes/twentytwenty/header.php:53, src/themes/twentytwenty/header.php:157
+msgctxt "toggle text"
+msgid "Search"
+msgstr ""
+
+#: src/themes/twentytwenty/header.php:76, src/themes/twentytwenty/header.php:137
+msgid "Menu"
+msgstr ""
+
+#: src/themes/twentytwenty/header.php:88
+msgctxt "menu"
+msgid "Horizontal"
+msgstr ""
+
+#: src/themes/twentytwenty/index.php:32
+msgid "Search:"
+msgstr ""
+
+#: src/themes/twentytwenty/index.php:48
+msgid "We could not find any results for your search. You can give it another try through the search form below."
+msgstr ""
+
+#: src/themes/twentytwenty/index.php:39
+msgid "We found %s result for your search."
+msgid_plural "We found %s results for your search."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/themes/twentytwenty/index.php:101
+msgid "search again"
+msgstr ""
+
+#: src/themes/twentytwenty/searchform.php:28
+msgid "Search for:"
+msgstr ""
+
+#: src/themes/twentytwenty/searchform.php:29
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: src/themes/twentytwenty/searchform.php:31
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/api/Route.php:60, src/vendor/vunamhung/wptoolkit/api/Route.php:64, src/vendor/vunamhung/wptoolkit/api/Route.php:68, src/vendor/vunamhung/wptoolkit/api/Route.php:72
+msgid "Method not implemented"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/api/Route.php:108
+msgid "Missing the X-VNH-API-Nonce header. This endpoint requires a valid nonce."
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/api/Route.php:116
+msgid "X-VNH-API-Nonce is invalid."
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/checker/Checker.php:19
+msgid "%s requires %s version %s or higher to run and has been deactivated. You are currently running version %s."
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/checker/Plugin_Checker.php:23
+msgid "%s requires %s version %s or higher and cannot be activated. You are currently running version %s."
+msgstr ""
+
+#. translators: %s: human time
+#: src/vendor/vunamhung/wptoolkit/helpers/core.php:27
+msgid "%s ago"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/helpers/http.php:19
+msgid "Failed to connect to the server"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/helpers/http.php:27
+msgid "Too Many Requests"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/helpers/http.php:31
+msgid "Invalid Status code."
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/Our_Plugins.php:33
+msgid "More info"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/Our_Plugins.php:35
+msgid "by "
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/Plugin_Action_Links.php:36
+msgid "Settings"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/Plugin_Action_Links.php:47
+msgid "Go Pro"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/Plugin_Row_Meta.php:26
+msgid "Docs & FAQ"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/Singleton.php:25, src/vendor/vunamhung/wptoolkit/Singleton.php:34
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:14
+msgctxt "Download log file to your computer"
+msgid "Download"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:99
+msgid "Enabled"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:100
+msgid "Disabled"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:101
+msgid "Yes"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:102
+msgid "No"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:103
+msgid "Not defined"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:113
+msgid "Multisite"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:117
+msgid "Database Name"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:118
+msgid "Table Prefix"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:123
+msgid "n/a"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:131
+msgid "WordPress Version"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:132
+msgid "WordPress Remote"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:132
+msgid "true"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:132
+msgid "false"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:133
+msgid "Permalink"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:149
+msgid "Registered Post Types"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:155
+msgid "All"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:153
+msgid "Partially (Accessible Hosts: %s)"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:159
+msgid "Web Server"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:160
+msgid "PHP"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:161
+msgid "WP Memory Limit"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:162
+msgid "PHP Time Limit"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:163
+msgid "Blocked External HTTP Requests"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:164
+msgid "None"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:168
+msgid "Opcache Enabled"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:173
+msgid "yes"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:173
+msgid "no"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:179
+msgid "Debug Mode"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:180
+msgid "Debug Log"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:181
+msgid "Debug Display"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:182
+msgid "Script Debug"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:183
+msgid "PHP Error Log"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:187
+msgid "WP Max Upload Size"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:188
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:189
+msgid "Max Execution Time"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:190
+msgid "Max Input Vars"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:203
+msgid "Active Theme Name"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:204
+msgid "Active Theme Folder"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:212
+msgid "Active Theme Folder Not Found"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:219
+msgid "Active Plugins:"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:238
+msgid "(v%s)"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/System_Status.php:239
+msgid " by %s"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/Widget.php:63
+msgid "There are no options for this widget."
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/Widget.php:155
+msgid "No taxonomy have been created yet. Create some"
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/Widget.php:150
+msgid "No menus have been created yet."
+msgstr ""
+
+#: src/vendor/vunamhung/wptoolkit/Widget.php:152
+msgid "Create some"
+msgstr ""

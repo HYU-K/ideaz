@@ -1,0 +1,237 @@
+.html_material_col12 {
+  padding: 60px 0;
+}
+.html_material_col12 .item-banner {
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+.html_material_col12 .item-banner:hover .banner .images {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.html_material_col12 .banner {
+  width: 100%;
+  overflow: hidden;
+}
+.html_material_col12 .banner .images {
+  width: 100%;
+  padding-top: 54%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+.html_material_col12 .banner .images img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+}
+.html_material_col12 .banner .images::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(19, 19, 19, 0.22);
+  z-index: 2;
+}
+.html_material_col12 .title_project {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: "GMV URW Geometric medium";
+  text-transform: uppercase;
+  color: #ffffff;
+  z-index: 3;
+}
+.html_material_col12 .launcher_list {
+  display: -ms-grid;
+  display: grid;
+  margin: 0 -15px;
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
+}
+
+.card-block {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-block .card-topic {
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.card-block .card-topic .title {
+  text-transform: uppercase;
+}
+.card-block .card-topic.main {
+  padding-top: 18px;
+}
+.card-block .card-topic.main::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  width: 60px;
+  height: 3px;
+  background: var(--color1);
+}
+.card-block h1,
+.card-block h2,
+.card-block h3,
+.card-block h4,
+.card-block h5,
+.card-block h6 {
+  font-family: "GMV URW Geometric bold";
+  line-height: 111.29%;
+  color: #333333;
+  margin-bottom: 5px;
+}
+.card-block .card-title {
+  text-align: center;
+}
+.card-block .card-title p {
+  font-family: "GMV URW Geometric light";
+  color: #4f4f4f;
+  margin-bottom: 16px;
+}
+
+.detail_material {
+  padding: 60px 0;
+}
+.detail_material .item_material {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+.detail_material .item_material:nth-child(2n+0) .images {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+.detail_material .item_material:nth-child(2n+0) .detail {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+.detail_material .item_material .images {
+  width: 50%;
+}
+.detail_material .item_material .images .img {
+  width: 100%;
+  padding-top: 54%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.detail_material .item_material .images .img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+}
+.detail_material .item_material .detail {
+  width: 50%;
+  padding: 20px 60px;
+}
+.detail_material .item_material .detail .item-descrip {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.detail_material .item_material .detail p {
+  color: #4f4f4f;
+  text-align: justify;
+}
+
+@media (max-width: 1199px) {
+  .detail_material .item_material .detail {
+    padding: 20px 40px;
+  }
+  .detail_material .item_material .detail .item-descrip {
+    -webkit-line-clamp: 5;
+  }
+}
+@media (max-width: 991px) {
+  .html_material_col12 {
+    padding: 40px 0;
+  }
+
+  .detail_material {
+    padding: 40px 0;
+  }
+  .detail_material .item_material .detail {
+    padding: 20px 30px;
+  }
+  .detail_material .item_material .detail .item-descrip {
+    -webkit-line-clamp: 4;
+  }
+}
+@media screen and (max-width: 767px) {
+  .html_material_col12 .launcher_list {
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+  }
+  .html_material_col12 .item-banner {
+    padding: 0;
+  }
+
+  .detail_material .item_material {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .detail_material .item_material:nth-child(2n+0) .images {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .detail_material .item_material:nth-child(2n+0) .detail {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .detail_material .item_material .images {
+    width: 100%;
+  }
+  .detail_material .item_material .detail {
+    width: 100%;
+    padding: 20px;
+  }
+  .detail_material .item_material .detail .item-descrip {
+    display: inline-block;
+  }
+}

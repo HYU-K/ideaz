@@ -1,0 +1,8 @@
+@layer utilities {
+	.timeline {
+		&::after {
+			content: '';
+			@apply absolute top-0 bottom-0 left-1/2 -ml-[2px] w-[4px] bg-gray-200;
+		}
+	}
+}
