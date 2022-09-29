@@ -9,7 +9,7 @@ get_header();
 		<div class='container my-6'>
 			<ul class='flex items-center space-x-2 text-sm flex-wrap'>
 				<li><a href=<?php echo home_url(); ?>>Trang chủ</a><span class='pl-2'>/</span></li>
-				<li class='text-gray-500'>Phòng bếp</li>
+				<li class='text-gray-500'>Tin tức</li>
 			</ul>
 		</div>
 

@@ -16,151 +16,205 @@ $video  = get_field( 'video', 'image');
 ?>
 	<main id="primary" class="site-main">
 		<div class="banner_home">
-			<?php
-			echo do_shortcode('[smartslider3 slider="2"]');
-			?>
+<!--			--><?php
+//			echo do_shortcode('[smartslider3 slider="2"]');
+//			?>
+            <div class="bann_home slide_destinations" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="bg">
+                    <img src='<?php echo get_theme_file_uri( '/images/banner.png') ?>' alt=''>
+                    <div class="offset-1">
+                        <h5 class="carousel-cell__topic title16">Boffi<span>Novelties 2022</span></h5>
+                        <h4 class="carousel-cell__title title48">Novelties 2022</h4>
+                        <a class="btn-cta title16" href="" internal-route="">
+                            khám phá nhiều hơn
+                        </a>
+                    </div>
+                </div>
+                <div class="bg">
+                    <img src='<?php echo get_theme_file_uri( '/images/banner.png') ?>' alt=''>
+                    <div class="offset-1">
+                        <h5 class="carousel-cell__topic title16">Boffi<span>Novelties 2022</span></h5>
+                        <h4 class="carousel-cell__title title48">Novelties 2022</h4>
+                        <a class="btn-cta title16" href="" internal-route="">
+                            khám phá nhiều hơn
+                        </a>
+                    </div>
+                </div>
+                <div class="bg">
+                    <img src='<?php echo get_theme_file_uri( '/images/banner.png') ?>' alt=''>
+                    <div class="offset-1">
+                        <h5 class="carousel-cell__topic title16">Boffi<span>Novelties 2022</span></h5>
+                        <h4 class="carousel-cell__title title48">Novelties 2022</h4>
+                        <a class="btn-cta title16" href="" internal-route="">
+                            khám phá nhiều hơn
+                        </a>
+                    </div>
+                </div>
+            </div>
 			<span class="pagingInfo"></span>
 		</div>
 
+<!--		<div class="container">-->
+<!--			--><?php
+//			if ( have_posts() && have_rows( 'blocks' ) ) :
+//				while ( have_rows( 'blocks' ) ) : the_row();
+//					if ( get_row_layout() === 'hero' ):
+//						$hero = get_sub_field( 'hero' );
+//						$html = '<div class="html_introduce_home"><div class="elements">';
+//						foreach ( $hero as $hr ) {
+//							$html .= sprintf(
+//								'<div class="video_pro wow fadeInUp" data-wow-delay="0.5s" data-fancybox="gallery" href="%s">
+//											<div class="swiper-slide img"> <img class="object-cover w-full h-full" src="%s" alt=""></div>
+//											<div class="play-video"><i class="fas fa-play"></i></div>
+//										</div>
+//										<div class="text-intro">
+//											<div class="title title24">
+//												Ý tưởng ideaz
+//											</div>
+//											<ul>
+//												<li class="title18">
+//													<p>The Green from inside</p>
+//												</li>
+//												<li class="title18">
+//													<p>Innovations with great care of details</p>
+//												</li>
+//											</ul>
+//										</div>
+//									</div>
+//								</div>',
+//								$hr['link']['url'],
+//								$hr['image']
+//							);
+//						}
+//						$html .= '</div><div class="swiper-pagination"></div></div>';
+//
+//						echo $html;
+//					elseif ( get_row_layout() === 'banners' ):
+//						$banner_1 = get_sub_field( 'banner_1' )['url'];
+//						$banner_2 = get_sub_field( 'banner_2' )['url'];
+//						$banner_3 = get_sub_field( 'banner_3' )['url'];
+//						printf(
+//							'<div class="grid lg:grid-cols-3 gap-1 mt-1"><div><img class="object-cover w-full h-full" src="%s" alt="banner 1"></div><div><img class="object-cover w-full h-full" src="%s" alt="banner 2"></div><div><img class="object-cover w-full h-full" src="%s" alt="banner 3"></div></div>',
+//							$banner_1,
+//							$banner_2,
+//							$banner_3
+//						);
+//					elseif ( get_row_layout() === 'register_support' ):
+//						$register      = get_sub_field( 'register' );
+//						$register_html = '<div class="relative lg:max-h-[50vh]">';
+//						$register_html .= sprintf(
+//							'<a href="%s"><div class="absolute hover:bg-opacity-50 transition-all z-10 inset-0 flex items-center justify-center text-center bg-white bg-opacity-60"><div><i class="icon text-black icon-focus text-[80px]"></i><h3 class="text-2xl text-black">%s</h3><p class="text-gray-700">%s</p></div></div></a>',
+//							$register['link'],
+//							$register['title'],
+//							$register['description']
+//						);
+//						$register_html .= sprintf(
+//							'<img class="object-cover w-full h-full aspect-square" src="%s" alt=""></div>',
+//							$register['background']
+//						);
+//
+//						$support      = get_sub_field( 'support' );
+//						$support_html = '<div class="relative lg:max-h-[50vh]">';
+//						$support_html .= sprintf(
+//							'<a href="%s"><div class="absolute hover:bg-opacity-50 transition-all z-10 inset-0 flex items-center justify-center text-center bg-white bg-opacity-60"><div><i class="icon text-black icon-support text-[80px]"></i><h3 class="text-2xl text-black">%s</h3><p class="text-gray-700">%s</p></div></div></a>',
+//							$support['link'],
+//							$support['title'],
+//							$support['description']
+//						);
+//						$support_html .= sprintf(
+//							'<img class="object-cover w-full h-full aspect-square" src="%s" alt=""></div>',
+//							$support['background']
+//						);
+//
+//						printf( '<div class="grid lg:grid-cols-2 my-1 gap-1 lg:max-h-[50vh]">%s %s</div>', $register_html, $support_html );
+//					elseif ( get_row_layout() === 'links' ):
+//						$link_1      = get_sub_field( 'link_1' );
+//						$link_1_html = '<div class="relative">';
+//						$link_1_html .= sprintf(
+//							'<a href="%s"><div class="absolute hover:bg-opacity-50 transition-all z-10 inset-0 flex items-center justify-center text-center bg-white bg-opacity-60"><div><h3 class="text-2xl text-black">%s</h3><p class="text-gray-600">%s</p></div></div></a>',
+//							$link_1['url'],
+//							$link_1['title'],
+//							$link_1['description'] ?? null
+//						);
+//						$link_1_html .= sprintf(
+//							'<img class="object-cover w-full aspect-square" src="%s" alt=""></div>',
+//							$link_1['background']
+//						);
+//
+//						$link_2      = get_sub_field( 'link_2' );
+//						$link_2_html = '<div class="relative">';
+//						$link_2_html .= sprintf(
+//							'<a href="%s"><div class="absolute hover:bg-opacity-50 transition-all z-10 inset-0 flex items-center justify-center text-center bg-white bg-opacity-60"><div><h3 class="text-2xl text-black">%s</h3><p class="text-gray-600">%s</p></div></div></a>',
+//							$link_2['url'],
+//							$link_2['title'],
+//							$link_2['description'] ?? null
+//						);
+//						$link_2_html .= sprintf(
+//							'<img class="object-cover w-full aspect-square" src="%s" alt=""></div>',
+//							$link_1['background']
+//						);
+//
+//						$link_3      = get_sub_field( 'link_3' );
+//						$link_3_html = '<div class="relative">';
+//						$link_3_html .= sprintf(
+//							'<a href="%s"><div class="absolute hover:bg-opacity-50 transition-all z-10 inset-0 flex items-center justify-center text-center bg-white bg-opacity-60"><div><h3 class="text-2xl text-black">%s</h3><p class="text-gray-600">%s</p></div></div></a>',
+//							$link_3['url'],
+//							$link_3['title'],
+//							$link_3['description'] ?? null
+//						);
+//						$link_3_html .= sprintf(
+//							'<img class="object-cover w-full aspect-square" src="%s" alt=""></div>',
+//							$link_3['background']
+//						);
+//
+//						$link_4      = get_sub_field( 'link_4' );
+//						$link_4_html = '<div class="relative">';
+//						$link_4_html .= sprintf(
+//							'<a href="%s"><div class="absolute hover:bg-opacity-50 transition-all z-10 inset-0 flex items-center justify-center text-center bg-white bg-opacity-60"><div><h3 class="text-2xl text-black">%s</h3><p class="text-gray-600">%s</p></div></div></a>',
+//							$link_4['url'],
+//							$link_4['title'],
+//							$link_4['description'] ?? null
+//						);
+//						$link_4_html .= sprintf(
+//							'<img class="object-cover w-full aspect-square" src="%s" alt=""></div>',
+//							$link_4['background']
+//						);
+//
+//						printf( '<div class="grid col-span-2 my-1 lg:grid-cols-4 gap-1">%s%s%s%s</div>',
+//							$link_1_html,
+//							$link_2_html,
+//							$link_3_html,
+//							$link_4_html );
+//					endif;
+//				endwhile;
+//			else:
+//				get_template_part( 'template-parts/content', 'none' );
+//			endif;
+//			?>
+<!--		</div>-->
 		<div class="container">
-			<?php
-			if ( have_posts() && have_rows( 'blocks' ) ) :
-				while ( have_rows( 'blocks' ) ) : the_row();
-					if ( get_row_layout() === 'hero' ):
-						$hero = get_sub_field( 'hero' );
-						$html = '<div class="html_introduce_home"><div class="elements">';
-						foreach ( $hero as $hr ) {
-							$html .= sprintf(
-								'<div class="video_pro wow fadeInUp" data-wow-delay="0.5s" data-fancybox="gallery" href="%s">
-											<div class="swiper-slide img"> <img class="object-cover w-full h-full" src="%s" alt=""></div>
-											<div class="play-video"><i class="fas fa-play"></i></div>
-										</div>
-										<div class="text-intro">
-											<div class="title title24">
-												Ý tưởng ideaz
-											</div>
-											<ul>
-												<li class="title18">
-													<p>The Green from inside</p>
-												</li>
-												<li class="title18">
-													<p>Innovations with great care of details</p>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>',
-								$hr['link']['url'],
-								$hr['image']
-							);
-						}
-						$html .= '</div><div class="swiper-pagination"></div></div>';
-
-						echo $html;
-					elseif ( get_row_layout() === 'banners' ):
-						$banner_1 = get_sub_field( 'banner_1' )['url'];
-						$banner_2 = get_sub_field( 'banner_2' )['url'];
-						$banner_3 = get_sub_field( 'banner_3' )['url'];
-						printf(
-							'<div class="grid lg:grid-cols-3 gap-1 mt-1"><div><img class="object-cover w-full h-full" src="%s" alt="banner 1"></div><div><img class="object-cover w-full h-full" src="%s" alt="banner 2"></div><div><img class="object-cover w-full h-full" src="%s" alt="banner 3"></div></div>',
-							$banner_1,
-							$banner_2,
-							$banner_3
-						);
-					elseif ( get_row_layout() === 'register_support' ):
-						$register      = get_sub_field( 'register' );
-						$register_html = '<div class="relative lg:max-h-[50vh]">';
-						$register_html .= sprintf(
-							'<a href="%s"><div class="absolute hover:bg-opacity-50 transition-all z-10 inset-0 flex items-center justify-center text-center bg-white bg-opacity-60"><div><i class="icon text-black icon-focus text-[80px]"></i><h3 class="text-2xl text-black">%s</h3><p class="text-gray-700">%s</p></div></div></a>',
-							$register['link'],
-							$register['title'],
-							$register['description']
-						);
-						$register_html .= sprintf(
-							'<img class="object-cover w-full h-full aspect-square" src="%s" alt=""></div>',
-							$register['background']
-						);
-
-						$support      = get_sub_field( 'support' );
-						$support_html = '<div class="relative lg:max-h-[50vh]">';
-						$support_html .= sprintf(
-							'<a href="%s"><div class="absolute hover:bg-opacity-50 transition-all z-10 inset-0 flex items-center justify-center text-center bg-white bg-opacity-60"><div><i class="icon text-black icon-support text-[80px]"></i><h3 class="text-2xl text-black">%s</h3><p class="text-gray-700">%s</p></div></div></a>',
-							$support['link'],
-							$support['title'],
-							$support['description']
-						);
-						$support_html .= sprintf(
-							'<img class="object-cover w-full h-full aspect-square" src="%s" alt=""></div>',
-							$support['background']
-						);
-
-						printf( '<div class="grid lg:grid-cols-2 my-1 gap-1 lg:max-h-[50vh]">%s %s</div>', $register_html, $support_html );
-					elseif ( get_row_layout() === 'links' ):
-						$link_1      = get_sub_field( 'link_1' );
-						$link_1_html = '<div class="relative">';
-						$link_1_html .= sprintf(
-							'<a href="%s"><div class="absolute hover:bg-opacity-50 transition-all z-10 inset-0 flex items-center justify-center text-center bg-white bg-opacity-60"><div><h3 class="text-2xl text-black">%s</h3><p class="text-gray-600">%s</p></div></div></a>',
-							$link_1['url'],
-							$link_1['title'],
-							$link_1['description'] ?? null
-						);
-						$link_1_html .= sprintf(
-							'<img class="object-cover w-full aspect-square" src="%s" alt=""></div>',
-							$link_1['background']
-						);
-
-						$link_2      = get_sub_field( 'link_2' );
-						$link_2_html = '<div class="relative">';
-						$link_2_html .= sprintf(
-							'<a href="%s"><div class="absolute hover:bg-opacity-50 transition-all z-10 inset-0 flex items-center justify-center text-center bg-white bg-opacity-60"><div><h3 class="text-2xl text-black">%s</h3><p class="text-gray-600">%s</p></div></div></a>',
-							$link_2['url'],
-							$link_2['title'],
-							$link_2['description'] ?? null
-						);
-						$link_2_html .= sprintf(
-							'<img class="object-cover w-full aspect-square" src="%s" alt=""></div>',
-							$link_1['background']
-						);
-
-						$link_3      = get_sub_field( 'link_3' );
-						$link_3_html = '<div class="relative">';
-						$link_3_html .= sprintf(
-							'<a href="%s"><div class="absolute hover:bg-opacity-50 transition-all z-10 inset-0 flex items-center justify-center text-center bg-white bg-opacity-60"><div><h3 class="text-2xl text-black">%s</h3><p class="text-gray-600">%s</p></div></div></a>',
-							$link_3['url'],
-							$link_3['title'],
-							$link_3['description'] ?? null
-						);
-						$link_3_html .= sprintf(
-							'<img class="object-cover w-full aspect-square" src="%s" alt=""></div>',
-							$link_3['background']
-						);
-
-						$link_4      = get_sub_field( 'link_4' );
-						$link_4_html = '<div class="relative">';
-						$link_4_html .= sprintf(
-							'<a href="%s"><div class="absolute hover:bg-opacity-50 transition-all z-10 inset-0 flex items-center justify-center text-center bg-white bg-opacity-60"><div><h3 class="text-2xl text-black">%s</h3><p class="text-gray-600">%s</p></div></div></a>',
-							$link_4['url'],
-							$link_4['title'],
-							$link_4['description'] ?? null
-						);
-						$link_4_html .= sprintf(
-							'<img class="object-cover w-full aspect-square" src="%s" alt=""></div>',
-							$link_4['background']
-						);
-
-						printf( '<div class="grid col-span-2 my-1 lg:grid-cols-4 gap-1">%s%s%s%s</div>',
-							$link_1_html,
-							$link_2_html,
-							$link_3_html,
-							$link_4_html );
-					endif;
-				endwhile;
-			else:
-				get_template_part( 'template-parts/content', 'none' );
-			endif;
-			?>
-		</div>
-		<div class="container">
+            <div class="html_introduce_home">
+                <div class="elements">
+                    <div class="video_pro wow fadeInUp" data-wow-delay="0.5s" data-fancybox="gallery"
+                         href="https://www.youtube.com/watch?v=v1_YayoOKWo">
+                        <div class="img"><img src='<?php echo get_theme_file_uri( '/images/image.png') ?>' alt=''></div>
+                        <div class="play-video"><i class="fas fa-play"></i></div>
+                    </div>
+                    <div class="text-intro">
+                        <div class="title title24">
+                            Ý tưởng ideaz
+                        </div>
+                        <ul>
+                            <li class="title18">
+                                <p>The Green from inside</p>
+                            </li>
+                            <li class="title18">
+                                <p>Innovations with great care of details</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 			<div id="homepage__collections-launcher">
 				<div class="title_main">
 					<h2 class="title32">sản phẩm & thương hiệu</h2>

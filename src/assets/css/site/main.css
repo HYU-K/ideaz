@@ -1899,7 +1899,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.new_item .item_detail .text-content {
+.new_item .item_title .text-content {
   color: #4f4f4f;
   display: -webkit-box;
   -webkit-line-clamp: 3;
