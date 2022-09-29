@@ -198,7 +198,7 @@
   height: 14px;
   line-height: 0;
   content: "";
-  background-image: url(../../../images/icon/phay.png);
+  background-image: url(./images/icon/phay.png);
   background-size: 100% 100%;
 }
 .html_introduce_home .text-intro ul li {
