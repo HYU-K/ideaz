@@ -1,0 +1,8 @@
+.gifts{
+	ul {
+		@apply space-y-1;
+	}
+	li {
+		@apply list-inside list-disc;
+	}
+}

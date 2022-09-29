@@ -1,0 +1,16 @@
+:root {
+	--swiper-navigation-size: 25px !important;
+}
+.thumbs {
+	.swiper-slide {
+		@apply opacity-40;
+	}
+	.swiper-slide-thumb-active {
+		@apply opacity-100;
+	}
+}
+.gallery {
+	.swiper-slide {
+		@apply dlg:w-[92%];
+	}
+}

@@ -1,0 +1,49 @@
+.main-navigation {
+	@apply font-semibold;
+	ul.menu,
+	ul.nav-menu,
+	div.menu > ul {
+		@apply flex flex-wrap space-x-5;
+		.current_page_item {
+			@apply text-primary-500;
+		}
+		> li {
+			@apply relative hover:before:text-primary-500;
+			> a {
+				@apply block py-4 uppercase text-gray-600 hover:text-primary-500 hover:no-underline;
+			}
+			&.menu-item-has-children,
+			&.page_item_has_children {
+				@apply pr-4;
+				&:before {
+					@apply icon icon-chevron-down absolute top-5 right-0;
+				}
+			}
+			&:hover,
+			&.focus {
+				> ul {
+					left: auto;
+					display: block;
+				}
+			}
+		}
+		ul {
+			left: -999em;
+			@apply absolute top-full z-10 w-48 space-y-2 bg-white py-2 shadow-xl;
+			li {
+				@apply relative px-2;
+				a {
+					@apply text-black;
+				}
+				&:hover {
+					> ul {
+						@apply block;
+					}
+				}
+			}
+			ul {
+				@apply absolute top-full top-0 left-full z-10 hidden w-48 space-y-2 bg-white py-2 shadow-xl;
+			}
+		}
+	}
+}
