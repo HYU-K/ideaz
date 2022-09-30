@@ -6999,6 +6999,18 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label{
   transition: all 3s;
 }
 
+.html_slide_new.owl-carousel .owl-stage-outer,
+.html_slide_new.owl-carousel .owl-stage,
+.html_slide_new.owl-carousel.owl-drag .owl-item {
+  display: flex;
+}
+
+.single-news .new_item {
+  height: 100%;
+  display: grid;
+  align-content: space-between;
+}
+
 .new_item {
   position: relative;
   transition: all 0.5s;
@@ -7033,7 +7045,6 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label{
 
 .new_item .item_title {
   padding-top: 17px;
-  margin-bottom: 20px;
 }
 
 .new_item .item_title h3 {
@@ -7054,6 +7065,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label{
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .new_item .date {
