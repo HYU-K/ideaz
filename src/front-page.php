@@ -192,550 +192,582 @@ $video  = get_field( 'video', 'image');
 //			endif;
 //			?>
 <!--		</div>-->
-		<div class="container">
-            <div class="html_introduce_home">
-                <div class="elements">
-                    <div class="video_pro wow fadeInUp" data-wow-delay="0.5s" data-fancybox="gallery"
-                         href="https://www.youtube.com/watch?v=v1_YayoOKWo">
-                        <div class="img"><img src='<?php echo get_theme_file_uri( '/images/image.png') ?>' alt=''></div>
-                        <div class="play-video"><i class="fas fa-play"></i></div>
-                    </div>
-                    <div class="text-intro">
-                        <div class="title title24">
-                            Ý tưởng ideaz
+        <div class="container">
+            <div id="homepage__collections-launcher">
+                <div class="title_main">
+                    <h2 class="title32">sản phẩm & thương hiệu</h2>
+                </div>
+                <div id="cards-5-layout-1492339521572" class="launcher cards-5 restricted-container-fluid el-init el-show-complete" el-id="abstract-element_oBueo__collections-launcher">
+                    <div class="row vertical-spacer">
+                        <div class="col-12 col-lg-8 fade-in-parallax el-init el-show-complete el-scroll-state-exit-viewport wow fadeInUp" data-wow-delay="0.5s"
+                             el-id="abstract-element_oBueo__collections-launcher__card-layout__module-0">
+                            <a class="card card-section-launch img-lazyloaded" href="" internal-route=""
+                               style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                                <div class="card-img">
+                                    <div class="img"><img src='<?php echo get_theme_file_uri( '/images/image.png') ?>' alt=''></div>
+                                </div>
+                                <div class="card-img-overlay">
+                                    <div class="card-block">
+                                        <h4 class="card-title btn-white title24">Project_Code</h4>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                        <ul>
-                            <li class="title18">
-                                <p>The Green from inside</p>
-                            </li>
-                            <li class="title18">
-                                <p>Innovations with great care of details</p>
-                            </li>
-                        </ul>
+
+                        <div class="col-12 col-lg-4 fade-in-parallax el-init el-show-complete el-scroll-state-exit-viewport wow fadeInUp"
+                             data-wow-delay="0.5s"
+                             el-id="abstract-element_oBueo__collections-launcher__card-layout__module-1">
+                            <a class="card card-section-launch img-lazyloaded" href="" internal-route=""
+                               style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                                <div class="card-img">
+                                    <div class="img"><img src='<?php echo get_theme_file_uri( '/images/image1.png') ?>' alt=''></div>
+                                </div>
+                                <div class="card-img-overlay">
+                                    <div class="card-block">
+                                        <h4 class="card-title btn-white title24">Bathrooms</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-12 col-lg-4 fade-in-parallax el-init el-show-complete el-scroll-state-exit-viewport wow fadeInUp"
+                             data-wow-delay="0.5s"
+                             el-id="abstract-element_oBueo__collections-launcher__card-layout__module-2">
+                            <a class="card card-section-launch img-lazyloaded" href="" internal-route=""
+                               style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                                <div class="card-img">
+                                    <div class="img"><img src='<?php echo get_theme_file_uri( '/images/image2.png') ?>' alt=''></div>
+                                </div>
+                                <div class="card-img-overlay">
+                                    <div class="card-block">
+                                        <h4 class="card-title btn-white title24">Storage</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-12 col-lg-4 fade-in-parallax el-init el-show-complete el-scroll-state-exit-viewport wow fadeInUp"
+                             data-wow-delay="0.5s"
+                             el-id="abstract-element_oBueo__collections-launcher__card-layout__module-3">
+                            <a class="card card-section-launch img-lazyloaded" href="" internal-route=""
+                               style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                                <div class="card-img">
+                                    <div class="img"><img src='<?php echo get_theme_file_uri( '/images/image.png') ?>' alt=''></div>
+                                </div>
+                                <div class="card-img-overlay">
+                                    <div class="card-block">
+                                        <h4 class="card-title btn-white title24">Outdoors</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-12 col-lg-4 fade-in-parallax el-init el-show-complete el-scroll-state-exit-viewport wow fadeInUp"
+                             data-wow-delay="0.5s"
+                             el-id="abstract-element_oBueo__collections-launcher__card-layout__module-4">
+                            <a class="card card-section-launch img-lazyloaded" href="" internal-route=""
+                               style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                                <div class="card-img">
+                                    <div class="img"><img src='<?php echo get_theme_file_uri( '/images/image1.png') ?>' alt=''></div>
+                                </div>
+                                <div class="card-img-overlay">
+                                    <div class="card-block">
+                                        <h4 class="card-title btn-white title24">Complementary Items</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-			<div id="homepage__collections-launcher">
-				<div class="title_main">
-					<h2 class="title32">sản phẩm & thương hiệu</h2>
-				</div>
-				<div id="cards-5-layout-1492339521572" class="launcher cards-5 restricted-container-fluid el-init el-show-complete" el-id="abstract-element_oBueo__collections-launcher">
-					<div class="row vertical-spacer">
-						<div class="col-12 col-lg-8 fade-in-parallax el-init el-show-complete el-scroll-state-exit-viewport wow fadeInUp" data-wow-delay="0.5s"
-							 el-id="abstract-element_oBueo__collections-launcher__card-layout__module-0">
-							<a class="card card-section-launch img-lazyloaded" href="" internal-route=""
-							   style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-								<div class="card-img">
-									<div class="img"><img src='<?php echo get_theme_file_uri( '/images/image.png') ?>' alt=''></div>
-								</div>
-								<div class="card-img-overlay">
-									<div class="card-block">
-										<h4 class="card-title btn-white title24">Project_Code</h4>
-									</div>
-								</div>
-							</a>
-						</div>
-
-						<div class="col-12 col-lg-4 fade-in-parallax el-init el-show-complete el-scroll-state-exit-viewport wow fadeInUp"
-							 data-wow-delay="0.5s"
-							 el-id="abstract-element_oBueo__collections-launcher__card-layout__module-1">
-							<a class="card card-section-launch img-lazyloaded" href="" internal-route=""
-							   style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-								<div class="card-img">
-									<div class="img"><img src='<?php echo get_theme_file_uri( '/images/image1.png') ?>' alt=''></div>
-								</div>
-								<div class="card-img-overlay">
-									<div class="card-block">
-										<h4 class="card-title btn-white title24">Bathrooms</h4>
-									</div>
-								</div>
-							</a>
-						</div>
-
-						<div class="col-12 col-lg-4 fade-in-parallax el-init el-show-complete el-scroll-state-exit-viewport wow fadeInUp"
-							 data-wow-delay="0.5s"
-							 el-id="abstract-element_oBueo__collections-launcher__card-layout__module-2">
-							<a class="card card-section-launch img-lazyloaded" href="" internal-route=""
-							   style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-								<div class="card-img">
-									<div class="img"><img src='<?php echo get_theme_file_uri( '/images/image2.png') ?>' alt=''></div>
-								</div>
-								<div class="card-img-overlay">
-									<div class="card-block">
-										<h4 class="card-title btn-white title24">Storage</h4>
-									</div>
-								</div>
-							</a>
-						</div>
-
-						<div class="col-12 col-lg-4 fade-in-parallax el-init el-show-complete el-scroll-state-exit-viewport wow fadeInUp"
-							 data-wow-delay="0.5s"
-							 el-id="abstract-element_oBueo__collections-launcher__card-layout__module-3">
-							<a class="card card-section-launch img-lazyloaded" href="" internal-route=""
-							   style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-								<div class="card-img">
-									<div class="img"><img src='<?php echo get_theme_file_uri( '/images/image.png') ?>' alt=''></div>
-								</div>
-								<div class="card-img-overlay">
-									<div class="card-block">
-										<h4 class="card-title btn-white title24">Outdoors</h4>
-									</div>
-								</div>
-							</a>
-						</div>
-
-						<div class="col-12 col-lg-4 fade-in-parallax el-init el-show-complete el-scroll-state-exit-viewport wow fadeInUp"
-							 data-wow-delay="0.5s"
-							 el-id="abstract-element_oBueo__collections-launcher__card-layout__module-4">
-							<a class="card card-section-launch img-lazyloaded" href="" internal-route=""
-							   style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-								<div class="card-img">
-									<div class="img"><img src='<?php echo get_theme_file_uri( '/images/image1.png') ?>' alt=''></div>
-								</div>
-								<div class="card-img-overlay">
-									<div class="card-block">
-										<h4 class="card-title btn-white title24">Complementary Items</h4>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="new_col12_tintuc">
-				<div class="title_main">
-					<h2 class="title32">News</h2>
-				</div>
-				<div class="new_item news-main wow fadeInUp" data-wow-delay="0.5s">
-					<a href="" title="" class="">
-						<div class="item_image">
-							<div class="img">
-								<img src='<?php echo get_theme_file_uri( '/images/new.png') ?>' alt='' />
-							</div>
-						</div>
-						<div class="detail">
-							<div class="item_title">
-								<h3 class="title32">5 gợi ý thiết kế nội thất hiện đại sang trọng cho căn hộ.</h3>
-								<div class="date">
-									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-										<path
-											d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
-									</svg>
-									<div class="text">NOV 30, 2021</div>
-								</div>
-								<p class="title18">Đã bao giờ bạn cảm thấy không gian phòng của bạn vẫn còn trống trải
-									và muốn sắm thêm nội thất? bạn muốn lấp đầy những gian tường nhà nhưng lại không
-									biết bắt đầu từ đâu?</p>
-							</div>
-							<button>
-								<span>khám phá</span>
-							</button>
-						</div>
-					</a>
-				</div>
-				<div class="news_slide news_slide-js owl-carousel owl-theme wow fadeInUp" data-wow-delay="0.5s">
-					<a href="" title="" class="">
-						<div class="new_item">
-							<div class="item_image">
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/new.png') ?>' alt='' />
-								</div>
-							</div>
-							<div class="item_title">
-								<h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất động sản</h3>
-								<div class="date">
-									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
-										 fill="currentColor">
-										<path
-											d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
-									</svg>
-									<div class="text">NOV 30, 2021</div>
-								</div>
-								<p class="title18">Tháo gỡ điểm nghẽn pháp lý cho thị trường bất động sản Để đảm bảo thị
-									trường bất động sản trong thời gian tới phát triển ổn định, lành</p>
-							</div>
-							<button>
-								<span>khám phá</span>
-							</button>
-						</div>
-					</a>
-					<a href="" title="" class="">
-						<div class="new_item">
-							<div class="item_image">
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/new1.png') ?>' alt='' />
-								</div>
-							</div>
-							<div class="item_title">
-								<h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất
-									động sản</h3>
-								<div class="date">
-									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
-										 fill="currentColor">
-										<path
-											d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
-									</svg>
-									<div class="text">NOV 30, 2021</div>
-								</div>
-								<p class="title18">Tháo gỡ điểm nghẽn pháp lý cho thị trường bất động sản Để đảm bảo thị
-									trường bất động sản trong thời gian tới phát triển ổn định, lành</p>
-							</div>
-							<button>
-								<span>khám phá</span>
-							</button>
-						</div>
-					</a>
-					<a href="" title="" class="">
-						<div class="new_item">
-							<div class="item_image">
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/new2.png') ?>' alt='' />
-								</div>
-							</div>
-							<div class="item_title">
-								<h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất
-									động sản</h3>
-								<div class="date">
-									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
-										 fill="currentColor">
-										<path
-											d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
-									</svg>
-									<div class="text">NOV 30, 2021</div>
-								</div>
-								<p class="title18">Tháo gỡ điểm nghẽn pháp lý cho thị trường bất động sản Để đảm bảo thị
-									trường bất động sản trong thời gian tới phát triển ổn định, lành</p>
-							</div>
-							<button>
-								<span>khám phá</span>
-							</button>
-						</div>
-					</a>
-					<a href="" title="" class="">
-						<div class="new_item">
-							<div class="item_image">
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/new3.png') ?>' alt='' />
-								</div>
-							</div>
-							<div class="item_title">
-								<h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất
-									động sản</h3>
-								<div class="date">
-									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
-										 fill="currentColor">
-										<path
-											d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
-									</svg>
-									<div class="text">NOV 30, 2021</div>
-								</div>
-								<p class="title18">Tháo gỡ điểm nghẽn pháp lý cho thị trường bất động sản Để đảm bảo thị
-									trường bất động sản trong thời gian tới phát triển ổn định, lành</p>
-							</div>
-							<button>
-								<span>khám phá</span>
-							</button>
-						</div>
-					</a>
-					<a href="" title="" class="">
-						<div class="new_item">
-							<div class="item_image">
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/new4.png') ?>' alt='' />
-								</div>
-							</div>
-							<div class="item_title">
-								<h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất
-									động sản</h3>
-								<div class="date">
-									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
-										 fill="currentColor">
-										<path
-											d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
-									</svg>
-									<div class="text">NOV 30, 2021</div>
-								</div>
-								<p class="title18">Tháo gỡ điểm nghẽn pháp lý cho thị trường bất động sản Để đảm bảo thị
-									trường bất động sản trong thời gian tới phát triển ổn định, lành</p>
-							</div>
-							<button>
-								<span>khám phá</span>
-							</button>
-						</div>
-					</a>
-					<a href="" title="" class="">
-						<div class="new_item">
-							<div class="item_image">
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/new1.png') ?>' alt='' />
-								</div>
-							</div>
-							<div class="item_title">
-								<h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất
-									động sản</h3>
-								<div class="date">
-									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
-										 fill="currentColor">
-										<path
-											d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
-									</svg>
-									<div class="text">NOV 30, 2021</div>
-								</div>
-								<p class="title18">Tháo gỡ điểm nghẽn pháp lý cho thị trường bất động sản Để đảm bảo thị
-									trường bất động sản trong thời gian tới phát triển ổn định, lành</p>
-							</div>
-							<button>
-								<span>khám phá</span>
-							</button>
-						</div>
-					</a>
-					<a href="" title="" class="">
-						<div class="new_item">
-							<div class="item_image">
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/new2.png') ?>' alt='' />
-								</div>
-							</div>
-							<div class="item_title">
-								<h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất
-									động sản</h3>
-								<div class="date">
-									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
-										 fill="currentColor">
-										<path
-											d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
-									</svg>
-									<div class="text">NOV 30, 2021</div>
-								</div>
-								<p class="title18">Tháo gỡ điểm nghẽn pháp lý cho thị trường bất động sản Để đảm bảo thị
-									trường bất động sản trong thời gian tới phát triển ổn định, lành</p>
-							</div>
-							<button>
-								<span>khám phá</span>
-							</button>
-						</div>
-					</a>
-					<a href="" title="" class="">
-						<div class="new_item">
-							<div class="item_image">
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/new3.png') ?>' alt='' />
-								</div>
-							</div>
-							<div class="item_title">
-								<h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất
-									động sản</h3>
-								<div class="date">
-									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
-										 fill="currentColor">
-										<path
-											d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
-									</svg>
-									<div class="text">NOV 30, 2021</div>
-								</div>
-								<p class="title18">Tháo gỡ điểm nghẽn pháp lý cho thị trường bất động sản Để đảm bảo thị
-									trường bất động sản trong thời gian tới phát triển ổn định, lành</p>
-							</div>
-							<button>
-								<span>khám phá</span>
-							</button>
-						</div>
-					</a>
-					<a href="" title="" class="">
-						<div class="new_item">
-							<div class="item_image">
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/new4.png') ?>' alt='' />
-								</div>
-							</div>
-							<div class="item_title">
-								<h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất
-									động sản</h3>
-								<div class="date">
-									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
-										 fill="currentColor">
-										<path
-											d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
-									</svg>
-									<div class="text">NOV 30, 2021</div>
-								</div>
-								<p class="title18">Tháo gỡ điểm nghẽn pháp lý cho thị trường bất động sản Để đảm bảo thị
-									trường bất động sản trong thời gian tới phát triển ổn định, lành</p>
-							</div>
-							<button>
-								<span>khám phá</span>
-							</button>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="html_introduce_home">
-				<div class="elements">
-					<div class="images wow fadeInUp" data-wow-delay="0.3s">
-						<img src='<?php echo get_theme_file_uri( '/images/image.png') ?>' alt=''>
-					</div>
-					<div class="text-intro text-center">
-						<div class="text-center">
-							<h3 class="title36">Xanh</h3>
-							<p class="title18">Chú trọng chất lượng sống với các yếu tố không khí, nước, ánh sáng, thiên
-								nhiên</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="html_technology_col">
-				<div class="title_main">
-					<h2 class="title32">Công nghệ & Dịch vụ</h2>
-				</div>
-				<div class="technology_slide news_slide-js owl-carousel owl-theme wow fadeInUp" data-wow-delay="0.5s">
-					<a href="" title="" class="card-section-launch">
-						<div class="technology_item">
-							<div class="item_image">
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/new.png') ?>' alt='' />
-								</div>
-							</div>
-							<div class="card-img-overlay">
-								<div class="card-block">
-									<h4 class="card-title btn-white title24">Vách nhẹ & Kết cấu nhẹ</h4>
-								</div>
-							</div>
-						</div>
-					</a>
-					<a href="" title="" class="card-section-launch">
-						<div class="technology_item">
-							<div class="item_image">
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/new.png') ?>' alt='' />
-								</div>
-							</div>
-							<div class="card-img-overlay">
-								<div class="card-block">
-									<h4 class="card-title btn-white title24">Tối ưu năng lượng</h4>
-								</div>
-							</div>
-						</div>
-					</a>
-					<a href="" title="" class="card-section-launch">
-						<div class="technology_item">
-							<div class="item_image">
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/new.png') ?>' alt='' />
-								</div>
-							</div>
-							<div class="card-img-overlay">
-								<div class="card-block">
-									<h4 class="card-title btn-white title24">Dịch vụ Turnkey</h4>
-								</div>
-							</div>
-						</div>
-					</a>
-					<a href="" title="" class="card-section-launch">
-						<div class="technology_item">
-							<div class="item_image">
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/new.png') ?>' alt='' />
-								</div>
-							</div>
-							<div class="card-img-overlay">
-								<div class="card-block">
-									<h4 class="card-title btn-white title24">Tối ưu năng lượng</h4>
-								</div>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="html_technology_services">
-				<div class="flickity-viewport">
-					<div class="flex-viewport">
-						<div class="media-inner-content content-left">
-							<div class="image wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1s" data-fancybox="gallery" href='<?php echo get_theme_file_uri( '/images/image1.png') ?>'>
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/image1.png') ?>' alt=''>
-								</div>
-							</div>
-							<div class="detail">
-								<div class="title">
-									<h3 class="title42">Bền Vững</h3>
-								</div>
-								<a href="" title="" class="butt btn-more">
-									<span>Xem thêm</span>
-								</a>
-							</div>
-						</div>
-						<div class="media-inner-content content-right">
-							<div class="image wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1s"
-								 data-fancybox="gallery" href='<?php echo get_theme_file_uri( '/images/image1.png') ?>'>
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/image1.png') ?>' alt=''>
-								</div>
-							</div>
-							<div class="detail">
-								<div class="title">
-									<h3 class="title42">Bền Vững</h3>
-								</div>
-								<a href="" title="" class="butt btn-more">
-									<span>Xem thêm</span>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="flickity-viewport">
-					<div class="flex-viewport">
-						<div class="media-inner-content content-left">
-							<div class="image wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1s" data-fancybox="gallery" href='<?php echo get_theme_file_uri( '/images/image1.png') ?>'>
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/image1.png') ?>' alt=''>
-								</div>
-							</div>
-							<div class="detail">
-								<div class="title">
-									<h3 class="title42">Bền Vững</h3>
-								</div>
-								<a href="" title="" class="butt btn-more">
-									<span>Xem thêm</span>
-								</a>
-							</div>
-						</div>
-						<div class="media-inner-content content-right">
-							<div class="image wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1s"
-								 data-fancybox="gallery" href='<?php echo get_theme_file_uri( '/images/image1.png') ?>'>
-								<div class="img">
-									<img src='<?php echo get_theme_file_uri( '/images/image1.png') ?>' alt=''>
-								</div>
-							</div>
-							<div class="detail">
-								<div class="title">
-									<h3 class="title42">Bền Vững</h3>
-								</div>
-								<a href="" title="" class="butt btn-more">
-									<span>Xem thêm</span>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="html_introduce_home">
-				<div class="elements">
-					<div class="images wow fadeInUp" data-wow-delay="0.3s">
-						<img src='<?php echo get_theme_file_uri( '/images/image.png') ?>' alt=''>
-					</div>
-					<div class="text-intro text-about">
-						<div class="text-center">
-							<h3 class="title24">Về chúng tôi</h3>
-							<p class="title18">ideAZ được thành lập năm 2017, bởi các cổ đông từ Việt nam, Hà lan có
-								trên 25 kinh nghiệm trong lĩnh vực công nghệ xây dựng, hoàn thiện nội thất.</p>
-							<a href="" title="" class="btn-discover active">
-								<span>Khám phá</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+            <div class="new_col12_tintuc">
+                <div class="title_main">
+                    <h2 class="title32">News</h2>
+                </div>
+                <div class="new_item news-main wow fadeInUp" data-wow-delay="0.5s">
+                    <a href="" title="" class="">
+                        <div class="item_image">
+                            <div class="img">
+                                <img src='<?php echo get_theme_file_uri( '/images/new.png') ?>' alt='' />
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="item_title">
+                                <h3 class="title32">5 gợi ý thiết kế nội thất hiện đại sang trọng cho căn hộ.</h3>
+                                <div class="date">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                                d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
+                                    </svg>
+                                    <div class="text">NOV 30, 2021</div>
+                                </div>
+                                <p class="title18">Đã bao giờ bạn cảm thấy không gian phòng của bạn vẫn còn trống trải
+                                    và muốn sắm thêm nội thất? bạn muốn lấp đầy những gian tường nhà nhưng lại không
+                                    biết bắt đầu từ đâu?</p>
+                            </div>
+                            <button>
+                                <span>khám phá</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="news_slide news_slide-js owl-carousel owl-theme wow fadeInUp" data-wow-delay="0.5s">
+                    <a href="" title="" class="">
+                        <div class="new_item">
+                            <div class="item_image">
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/new.png') ?>' alt='' />
+                                </div>
+                            </div>
+                            <div class="item_title">
+                                <h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất động sản</h3>
+                            </div>
+                            <div class="item_detail">
+                                <div class="date">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                                d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
+                                    </svg>
+                                    <div class="text">NOV 30, 2021</div>
+                                </div>
+                                <div class="text-content title18">
+                                    Đã bao giờ bạn cảm thấy không gian phòng của bạn vẫn còn trống trải
+                                    và muốn sắm thêm nội thất? bạn muốn lấp đầy những gian tường nhà nhưng lại không
+                                    biết bắt đầu từ đâu?
+                                </div>
+                                <button>
+                                    <span>khám phá</span>
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" title="" class="">
+                        <div class="new_item">
+                            <div class="item_image">
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/new1.png') ?>' alt='' />
+                                </div>
+                            </div>
+                            <div class="item_title">
+                                <h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất động sản</h3>
+                            </div>
+                            <div class="item_detail">
+                                <div class="date">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                                d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
+                                    </svg>
+                                    <div class="text">NOV 30, 2021</div>
+                                </div>
+                                <div class="text-content title18">
+                                    Đã bao giờ bạn cảm thấy không gian phòng của bạn vẫn còn trống trải
+                                    và muốn sắm thêm nội thất? bạn muốn lấp đầy những gian tường nhà nhưng lại không
+                                    biết bắt đầu từ đâu?
+                                </div>
+                                <button>
+                                    <span>khám phá</span>
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" title="" class="">
+                        <div class="new_item">
+                            <div class="item_image">
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/new2.png') ?>' alt='' />
+                                </div>
+                            </div>
+                            <div class="item_title">
+                                <h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất động sản</h3>
+                            </div>
+                            <div class="item_detail">
+                                <div class="date">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                                d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
+                                    </svg>
+                                    <div class="text">NOV 30, 2021</div>
+                                </div>
+                                <div class="text-content title18">
+                                    Đã bao giờ bạn cảm thấy không gian phòng của bạn vẫn còn trống trải
+                                    và muốn sắm thêm nội thất? bạn muốn lấp đầy những gian tường nhà nhưng lại không
+                                    biết bắt đầu từ đâu?
+                                </div>
+                                <button>
+                                    <span>khám phá</span>
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" title="" class="">
+                        <div class="new_item">
+                            <div class="item_image">
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/new3.png') ?>' alt='' />
+                                </div>
+                            </div>
+                            <div class="item_title">
+                                <h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất động sản</h3>
+                            </div>
+                            <div class="item_detail">
+                                <div class="date">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                                d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
+                                    </svg>
+                                    <div class="text">NOV 30, 2021</div>
+                                </div>
+                                <div class="text-content title18">
+                                    Đã bao giờ bạn cảm thấy không gian phòng của bạn vẫn còn trống trải
+                                    và muốn sắm thêm nội thất? bạn muốn lấp đầy những gian tường nhà nhưng lại không
+                                    biết bắt đầu từ đâu?
+                                </div>
+                                <button>
+                                    <span>khám phá</span>
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" title="" class="">
+                        <div class="new_item">
+                            <div class="item_image">
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/new4.png') ?>' alt='' />
+                                </div>
+                            </div>
+                            <div class="item_title">
+                                <h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất động sản</h3>
+                            </div>
+                            <div class="item_detail">
+                                <div class="date">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                                d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
+                                    </svg>
+                                    <div class="text">NOV 30, 2021</div>
+                                </div>
+                                <div class="text-content title18">
+                                    Đã bao giờ bạn cảm thấy không gian phòng của bạn vẫn còn trống trải
+                                    và muốn sắm thêm nội thất? bạn muốn lấp đầy những gian tường nhà nhưng lại không
+                                    biết bắt đầu từ đâu?
+                                </div>
+                                <button>
+                                    <span>khám phá</span>
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" title="" class="">
+                        <div class="new_item">
+                            <div class="item_image">
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/new1.png') ?>' alt='' />
+                                </div>
+                            </div>
+                            <div class="item_title">
+                                <h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất động sản</h3>
+                            </div>
+                            <div class="item_detail">
+                                <div class="date">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                                d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
+                                    </svg>
+                                    <div class="text">NOV 30, 2021</div>
+                                </div>
+                                <div class="text-content title18">
+                                    Đã bao giờ bạn cảm thấy không gian phòng của bạn vẫn còn trống trải
+                                    và muốn sắm thêm nội thất? bạn muốn lấp đầy những gian tường nhà nhưng lại không
+                                    biết bắt đầu từ đâu?
+                                </div>
+                                <button>
+                                    <span>khám phá</span>
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" title="" class="">
+                        <div class="new_item">
+                            <div class="item_image">
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/new2.png') ?>' alt='' />
+                                </div>
+                            </div>
+                            <div class="item_title">
+                                <h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất động sản</h3>
+                            </div>
+                            <div class="item_detail">
+                                <div class="date">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                                d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
+                                    </svg>
+                                    <div class="text">NOV 30, 2021</div>
+                                </div>
+                                <div class="text-content title18">
+                                    Đã bao giờ bạn cảm thấy không gian phòng của bạn vẫn còn trống trải
+                                    và muốn sắm thêm nội thất? bạn muốn lấp đầy những gian tường nhà nhưng lại không
+                                    biết bắt đầu từ đâu?
+                                </div>
+                                <button>
+                                    <span>khám phá</span>
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" title="" class="">
+                        <div class="new_item">
+                            <div class="item_image">
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/new3.png') ?>' alt='' />
+                                </div>
+                            </div>
+                            <div class="item_title">
+                                <h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất động sản</h3>
+                            </div>
+                            <div class="item_detail">
+                                <div class="date">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                                d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
+                                    </svg>
+                                    <div class="text">NOV 30, 2021</div>
+                                </div>
+                                <div class="text-content title18">
+                                    Đã bao giờ bạn cảm thấy không gian phòng của bạn vẫn còn trống trải
+                                    và muốn sắm thêm nội thất? bạn muốn lấp đầy những gian tường nhà nhưng lại không
+                                    biết bắt đầu từ đâu?
+                                </div>
+                                <button>
+                                    <span>khám phá</span>
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" title="" class="">
+                        <div class="new_item">
+                            <div class="item_image">
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/new4.png') ?>' alt='' />
+                                </div>
+                            </div>
+                            <div class="item_title">
+                                <h3 class="title24">Loạt giải pháp chặn đồn thổi, sốt giá, nhiễu loạn thị trường bất động sản</h3>
+                            </div>
+                            <div class="item_detail">
+                                <div class="date">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                                d="M15.488 18.1308H4.40462C3.53017 18.1308 2.82129 17.4219 2.82129 16.5475V5.46415C2.82129 4.5897 3.53017 3.88082 4.40462 3.88082H5.98796V2.29749H7.57129V3.88082H12.3213V2.29749H13.9046V3.88082H15.488C16.3624 3.88082 17.0713 4.5897 17.0713 5.46415V16.5475C17.0713 17.4219 16.3624 18.1308 15.488 18.1308ZM4.40462 8.63082V16.5475H15.488V8.63082H4.40462ZM4.40462 5.46415V7.04749H15.488V5.46415H4.40462ZM13.9046 14.9642H12.3213V13.3808H13.9046V14.9642ZM10.738 14.9642H9.15462V13.3808H10.738V14.9642ZM7.57129 14.9642H5.98796V13.3808H7.57129V14.9642ZM13.9046 11.7975H12.3213V10.2142H13.9046V11.7975ZM10.738 11.7975H9.15462V10.2142H10.738V11.7975ZM7.57129 11.7975H5.98796V10.2142H7.57129V11.7975Z" />
+                                    </svg>
+                                    <div class="text">NOV 30, 2021</div>
+                                </div>
+                                <div class="text-content title18">
+                                    Đã bao giờ bạn cảm thấy không gian phòng của bạn vẫn còn trống trải
+                                    và muốn sắm thêm nội thất? bạn muốn lấp đầy những gian tường nhà nhưng lại không
+                                    biết bắt đầu từ đâu?
+                                </div>
+                                <button>
+                                    <span>khám phá</span>
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="html_introduce_home">
+                <div class="slide-elements owl-carousel owl-theme">
+                    <div class="elements">
+                        <div class="images wow fadeInUp" data-wow-delay="0.3s">
+                            <img src='<?php echo get_theme_file_uri( '/images/image.png') ?>' alt=''>
+                        </div>
+                        <div class="text-intro text-center">
+                            <div class="text-center">
+                                <h3 class="title36">Xanh</h3>
+                                <p class="title18">Chú trọng chất lượng sống với các yếu tố không khí, nước, ánh sáng, thiên
+                                    nhiên</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elements">
+                        <div class="images wow fadeInUp" data-wow-delay="0.3s">
+                            <img src='<?php echo get_theme_file_uri( '/images/image.png') ?>' alt=''>
+                        </div>
+                        <div class="text-intro text-center">
+                            <div class="text-center">
+                                <h3 class="title36">Xanh</h3>
+                                <p class="title18">Chú trọng chất lượng sống với các yếu tố không khí, nước, ánh sáng, thiên
+                                    nhiên</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elements">
+                        <div class="images wow fadeInUp" data-wow-delay="0.3s">
+                            <img src='<?php echo get_theme_file_uri( '/images/image.png') ?>' alt=''>
+                        </div>
+                        <div class="text-intro text-center">
+                            <div class="text-center">
+                                <h3 class="title36">Xanh</h3>
+                                <p class="title18">Chú trọng chất lượng sống với các yếu tố không khí, nước, ánh sáng, thiên
+                                    nhiên</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="html_technology_col">
+                <div class="title_main">
+                    <h2 class="title32">Công nghệ & Dịch vụ</h2>
+                </div>
+                <div class="technology_slide news_slide-js owl-carousel owl-theme wow fadeInUp" data-wow-delay="0.5s">
+                    <a href="" title="" class="card-section-launch">
+                        <div class="technology_item">
+                            <div class="item_image">
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/new.png') ?>' alt='' />
+                                </div>
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="card-block">
+                                    <h4 class="card-title btn-white title24">Vách nhẹ & Kết cấu nhẹ</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" title="" class="card-section-launch">
+                        <div class="technology_item">
+                            <div class="item_image">
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/new.png') ?>' alt='' />
+                                </div>
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="card-block">
+                                    <h4 class="card-title btn-white title24">Tối ưu năng lượng</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" title="" class="card-section-launch">
+                        <div class="technology_item">
+                            <div class="item_image">
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/new.png') ?>' alt='' />
+                                </div>
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="card-block">
+                                    <h4 class="card-title btn-white title24">Dịch vụ Turnkey</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" title="" class="card-section-launch">
+                        <div class="technology_item">
+                            <div class="item_image">
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/new.png') ?>' alt='' />
+                                </div>
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="card-block">
+                                    <h4 class="card-title btn-white title24">Tối ưu năng lượng</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="html_technology_services">
+                <div class="flickity-viewport">
+                    <div class="flex-viewport">
+                        <div class="media-inner-content content-left">
+                            <div class="image wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1s" data-fancybox="gallery" href='<?php echo get_theme_file_uri( '/images/image1.png') ?>'>
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/image1.png') ?>' alt=''>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="title">
+                                    <h3 class="title42">Bền Vững</h3>
+                                </div>
+                                <a href="" title="" class="butt btn-more">
+                                    <span>Xem thêm</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="media-inner-content content-right">
+                            <div class="image wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1s"
+                                 data-fancybox="gallery" href='<?php echo get_theme_file_uri( '/images/image1.png') ?>'>
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/image1.png') ?>' alt=''>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="title">
+                                    <h3 class="title42">Bền Vững</h3>
+                                </div>
+                                <a href="" title="" class="butt btn-more">
+                                    <span>Xem thêm</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flickity-viewport">
+                    <div class="flex-viewport">
+                        <div class="media-inner-content content-left">
+                            <div class="image wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1s" data-fancybox="gallery" href='<?php echo get_theme_file_uri( '/images/image1.png') ?>'>
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/image1.png') ?>' alt=''>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="title">
+                                    <h3 class="title42">Bền Vững</h3>
+                                </div>
+                                <a href="" title="" class="butt btn-more">
+                                    <span>Xem thêm</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="media-inner-content content-right">
+                            <div class="image wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1s"
+                                 data-fancybox="gallery" href='<?php echo get_theme_file_uri( '/images/image1.png') ?>'>
+                                <div class="img">
+                                    <img src='<?php echo get_theme_file_uri( '/images/image1.png') ?>' alt=''>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="title">
+                                    <h3 class="title42">Bền Vững</h3>
+                                </div>
+                                <a href="" title="" class="butt btn-more">
+                                    <span>Xem thêm</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="html_introduce_home">
+                <div class="elements">
+                    <div class="images wow fadeInUp" data-wow-delay="0.3s">
+                        <img src='<?php echo get_theme_file_uri( '/images/image.png') ?>' alt=''>
+                    </div>
+                    <div class="text-intro text-about">
+                        <div class="text-center">
+                            <h3 class="title24">Về chúng tôi</h3>
+                            <p class="title18">ideAZ được thành lập năm 2017, bởi các cổ đông từ Việt nam, Hà lan có
+                                trên 25 kinh nghiệm trong lĩnh vực công nghệ xây dựng, hoàn thiện nội thất.</p>
+                            <a href="" title="" class="btn-discover active">
+                                <span>Khám phá</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 		<div class="form_registration wow fadeInDown" data-wow-delay="0.5s">
 			<div class="container">
 				<div class="form">

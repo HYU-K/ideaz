@@ -10744,6 +10744,7 @@ a {
   max-width: 970px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 100px;
 }
 
 .html_introduce_home .images {
@@ -11138,6 +11139,10 @@ a {
     zoom: 0.9;
   }
 
+  .html_introduce_home .elements {
+    margin-bottom: 80px;
+  }
+
   .html_introduce_home {
     padding: 40px 0 140px 0;
   }
@@ -11203,6 +11208,10 @@ a {
   .banner_home .slick-dots {
     bottom: 30px;
     left: 30px;
+  }
+
+  .html_introduce_home .elements {
+    margin-bottom: 0;
   }
 
   .html_introduce_home {

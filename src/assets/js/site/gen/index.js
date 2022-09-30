@@ -8,11 +8,11 @@ $(document).ready(function () {
         var thumb = $(slider.$slides[i += 1]).data();
         return '<a class="dot">'+'0'+i+'</a>';
                 },
-        responsive: [{ 
+        responsive: [{
             breakpoint: 500,
             settings: {
                 dots: false,
-            } 
+            }
         }]
     });
 
@@ -46,5 +46,14 @@ $(document).ready(function () {
             },
         }
     });
+
+	$('.slide-elements').owlCarousel({
+		loop: true,
+		speed: 1000,
+		items: 1,
+		nav: false,
+		dots: false,
+		autoplay: true,
+	});
 });
 
