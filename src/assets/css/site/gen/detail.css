@@ -71,7 +71,7 @@
 }
 .new_col9_products .arcontactus-share {
   position: absolute;
-  left: -100px;
+  left: 0px;
   top: 200px;
   z-index: 999;
   -webkit-transition: all 0.5s;

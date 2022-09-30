@@ -4475,12 +4475,12 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label{
   height: 1.25rem;
 }
 
-.h-1{
-  height: 0.25rem;
-}
-
 .h-48{
   height: 12rem;
+}
+
+.h-1{
+  height: 0.25rem;
 }
 
 .w-full{
@@ -4930,6 +4930,10 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label{
   text-transform: lowercase;
 }
 
+.capitalize{
+  text-transform: capitalize;
+}
+
 .italic{
   font-style: italic;
 }
@@ -5014,6 +5018,10 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label{
 
 .filter{
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.\!filter{
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow) !important;
 }
 
 .transition-all{
@@ -9521,7 +9529,7 @@ a {
 
 .new_col9_products .arcontactus-share {
   position: absolute;
-  left: -100px;
+  left: 0px;
   top: 200px;
   z-index: 999;
   transition: all 0.5s;
