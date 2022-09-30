@@ -6711,6 +6711,25 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label{
   z-index: -10;
 }
 
+.btn-more {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 30px;
+  border: 1px solid #000000;
+}
+
+.btn-more span {
+  color: #333333;
+}
+
+.btn-more:hover span {
+  color: #FFFFFF;
+}
+
+.btn-more::before {
+  background: #000000;
+}
+
 .btn-discover {
   display: flex;
   align-items: center;

@@ -308,6 +308,7 @@
     display: flex;
   }
 }
+
 .head_col0 {
   width: 100%;
   display: -webkit-box;
@@ -1560,7 +1561,20 @@
 .butt.active:hover::after {
   z-index: -10;
 }
-
+.btn-more {
+	width: fit-content;
+	padding: 15px 30px;
+	border: 1px solid #000000;
+}
+.btn-more span {
+	color: #333333;
+}
+.btn-more:hover span {
+	color: #FFFFFF;
+}
+.btn-more::before {
+	background: #000000;
+}
 .btn-discover {
   display: -webkit-box;
   display: -ms-flexbox;
